@@ -9,6 +9,8 @@
   --dcyan: hsl(158, 36%, 37%);
   --cream: hsl(30, 38%, 92%);
 
+  --dgreen: #1a4031;
+
   --vdblue: hsl(212, 21%, 14%);
   --dgblue: hsl(228, 12%, 48%);
   --white: hsl(0, 0%, 100%);
@@ -132,6 +134,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card-button:active {
+  background-color: var(--dgreen);
 }
 
 .button-text {
